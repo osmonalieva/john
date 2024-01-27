@@ -1,38 +1,192 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;padding: 0;
+}
+.container{
+  width: 60%;
+  margin:0 auto;
+}
+a{
+  text-decoration: none;
+}
+#header{
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .header nav{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 40px;
+  margin-left: 900px;
+}
+#section{
+  padding:200px;
 }
 
-.App-link {
-  color: #61dafb;
+.section{
+  display: flex;
+  justify-content: space-between;align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content h2{
+  color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 44px;
+font-weight: 700;
+}
+
+.content p {
+  padding: 30px 0 30px 0 ;
+  color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+ font-weight: 400;
+}
+.content button {
+  color: #FFF;
+font-family: Heebo;
+font-size: 20px;
+font-weight: 500;
+width: 208px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 8px;
+border: none;
+background: var(--Primary, #FF6464);
+}
+
+.block{
+  width:100%;
+height:430px;
+flex-shrink: 0;
+  background: #EDF7FA;
+  margin-top: 100px;
+}
+
+.contact{
+  padding: 30px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 60px;
+}
+.contact h3 {
+  margin-left: 255px;
+  color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 22px;
+font-weight: 400;
+}
+.contact a {
+  margin-right: 265px;
+  color: var(--Secondry, #00A8CC);
+text-align: right;
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.box_loro{
+  display: flex;
+}
+
+.card{
+  margin-right: -200px;
+  margin-left: 280px;
+  width: 418px;
+height: 295px;
+flex-shrink: 0;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+}
+
+.box_text {
+  padding: 30px;
+}
+
+.box_text h4 {
+  color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 26px;
+font-weight: 700;
+}
+.box_text h6 {
+  margin-top: 20px;
+  color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.box_text p {
+  margin-top: 20px;
+  color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hero {
+  padding: 50px;
+}
+
+.hero_text img  {
+  padding: 50px;
+
+}
+
+.worent{
+  display: flex;
+  align-items: center;
+  margin-right: -200px;
+}
+
+
+.canva h2 {
+  color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 50px;
+font-weight: 700;
+}
+
+.canva button {
+  width: 60px;
+  height: 40px;
+  border-radius: 16px;
+  border: none;
+background: #142850;
+  border: none;
+  color: #FFF;
+font-family: Heebo;
+font-size: 18px;
+}
+input {
+  margin-left: 20px;
+  width: 374px;
+height: 34px;
+flex-shrink: 0;
+color: var(--Light, #8695A4);
+font-family: Heebo;
+border: none;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.canva p { 
+  color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
 }
